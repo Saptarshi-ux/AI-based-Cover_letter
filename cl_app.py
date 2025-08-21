@@ -7,7 +7,7 @@ st.subheader("Generate a tailored, professional cover letter in seconds using AI
 with st.expander("📋 Fill in Your Details", expanded=True):
     job_title = st.text_input("Job Title")
     company_name=st.text_input("Name of the company where you are applying for:")
-    resume_summary = st.text_area("Resume Summary / Highlights", height=150)
+    resume_summary = st.text_area("Resume Summary / write a sumamry about yourself", height=150)
     highest_education = st.text_input("Highest Academic Qualification with Specialization")
     experience = st.selectbox("Experience Level", ["Fresher", "1-3 years of experience", "3+ years of experience"])
 if st.button("Generate Your Cover Letter"):
