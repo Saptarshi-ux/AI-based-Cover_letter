@@ -3,7 +3,7 @@ import streamlit as st
 genai.configure(api_key=st.secrets["my_api_key"])
 model = genai.GenerativeModel("gemini-2.5-flash")
 st.set_page_config(page_title="Cover Letter Generator by Saptarshi", page_icon="📝", layout="centered")
-st.subheader("Generate a tailored, professional cover letter in seconds using AI.")
+st.subheader("Generate a tailored, and professional cover letter in seconds using AI.")
 with st.expander("📋 Fill in Your Details", expanded=True):
     job_title = st.text_input("Job Title")
     company_name=st.text_input("Name of the company where you are applying for:")
