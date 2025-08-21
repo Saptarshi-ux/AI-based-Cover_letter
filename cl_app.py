@@ -6,7 +6,7 @@ st.set_page_config(page_title="Cover Letter Generator by Saptarshi", page_icon="
 st.subheader("Generate a tailored, and professional cover letter in seconds using AI.")
 with st.expander("📋 Fill in Your Details", expanded=True):
     job_title = st.text_input("Job Title")
-    company_name=st.text_input("Name of the company where you are applying for:")
+    company_name=st.text_input("Name of the company/Institute where you are applying for:")
     resume_summary = st.text_area("Resume Summary / write a summary about yourself", height=150)
     highest_education = st.text_input("Highest Academic Qualification with Specialization")
     experience = st.selectbox("Experience Level", ["Fresher", "1-3 years of experience", "3+ years of experience"])
