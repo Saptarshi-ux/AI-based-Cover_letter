@@ -1,6 +1,6 @@
 import google.generativeai as genai
 import streamlit as st
-genai.configure(api_key=st.secrets["my_api_key"])
+genai.configure(api_key="AIzaSyAUgmmcpUAU2ZF-MOd38Hi7pmYkB38iUmY")
 model = genai.GenerativeModel("gemini-2.5-flash")
 st.set_page_config(page_title="Cover Letter Generator by Saptarshi", page_icon="📝", layout="centered")
 st.subheader("Generate a tailored, professional cover letter in seconds using AI.")
